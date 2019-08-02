@@ -1,0 +1,7 @@
+.background_picture_future {
+    background: url("https://www.automobilesreview.com/uploads/2016/06/Autonomous-cars-1240.jpg") 0 0 no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-attachment: scroll;
+}

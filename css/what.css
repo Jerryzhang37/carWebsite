@@ -1,0 +1,7 @@
+.background_picture_what {
+    background: url("https://gunaxin.com/wp-content/uploads/2014/05/Disintegrating-Ferrari-330-P41.jpg") 0 0 no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    background-attachment: scroll;
+}
