@@ -5,65 +5,55 @@
     <title>What's in a Car</title>
     <link href="css/base.css" rel="stylesheet">
     <link href="css/what.css" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="js/turn.js/turn.js"></script>
+    <style>
+
+    </style>
 </head>
 <body>
-
-<div class = "menu">
-    <div class = "nav_menu">
-        <ul>
-            <li ><a href="index.html">Home</a></li>
-            <li><a href="choose.html">Choose Your Car</a></li>
-            <li><a href="what.html">What is in a Car</a></li>
-            <li><a href="history.html">History of Cars</a></li>
-            <li><a href="future.html">Future of Cars</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </div>
-</div>
-
-<div class="background_picture_what"></div>
-
-<div>
-    <div>
-        <a id="Transmission" href="#">
-            <img src="https://www.zf.com/products/media/product_media/cars_5/cars_driveline_7_speed_manual_transmission/7MT_3_2_748px.jpg">
-        </a>
-        <a id="Chasis"  href="#">
-            <img src="https://www.pressmark.co.uk/wp-content/uploads/2016/10/Audi-Chassis.jpg">
-        </a>
-    </div>
-    <div>
-        <a id="Fuel_System" href="#">
-            <img src="https://www.howacarworks.com/illustration/97/a-circulating-fuel-system.base@1x.jpg">
-        </a>
-    </div>
-    <div>
-        <div>
-            <a id="Engine" href="#">
-                <img src="https://static.carfromjapan.com/wp-content/uploads/2017/11/1-1.jpg">
-            </a>
-        </div>
-        <div>
-            <a id="Cooling_System" href="#">
-                <img src="https://www.cstatic-images.com/original/srvc-gloss/1415724101107.png">
-            </a>
-            <a id="Lubrication" href="#">
-                <img src=" http://tomsonmotors.co.za/wp-content/uploads/2018/07/12_lubrication_services-EDITED.png">
-            </a>
+    <div class = "menu">
+        <div class = "nav_menu">
+            <ul>
+                <li ><a href="index.html">Home</a></li>
+                <li><a href="choose.html">Choose Your Car</a></li>
+                <li><a href="what.html">What is in a Car</a></li>
+                <li><a href="history.html">History of Cars</a></li>
+                <li><a href="future.html">Future of Cars</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </div>
     </div>
-</div>
+    <div id="flipbook">
+        <div class="hard"><img src="book_img/hard.jpg"></div>
+        <div><img src="book_img/p1.jpg"></div>
+        <div><img src="book_img/p2.jpg"></div>
+        <div><img src="book_img/p3.jpg"></div>
+        <div><img src="book_img/p4.jpg"></div>
+        <div><img src="book_img/p5.jpg"></div>
+        <div><img src="book_img/p6.jpg"></div>
+        <div><img src="book_img/p7.jpg"></div>
+        <div><img src="book_img/p8.jpg"></div>
+        <div><img src="book_img/p9.jpg"></div>
+        <div><img src="book_img/p10.jpg"></div>
+        <div><img src="book_img/p11.jpg"></div>
+        <div><img src="book_img/p12.jpg"></div>
+        <div><img src="book_img/p13.jpg"></div>
+        <div><img src="book_img/p14.jpg"></div>
+        <div><img src="book_img/p15.jpg"></div>
+        <div><img src="book_img/p16.jpg"></div>
+        <div class="hard"></div>
+    </div>
 
-<div>
-    <a id="Exhaust_System" href="#">
-        <img src="https://st.motortrend.com/uploads/sites/5/2018/03/Bugatti-Chiron-Sport-exhaust.jpg">
-    </a>
-    <a id="Electrical_System" href="#">
-        <img src="https://d32ptomnhiuevv.cloudfront.net/en-us/sites/default/files/styles/blog_landing_header/public/How_car_electrical_system_works.png?itok=MmGETaau">
-    </a>
-</div>
-<footer>
-    <p>Posted By: Jerry Zhang</p>
-</footer>
+    <script type="text/javascript">
+        $("#flipbook").turn({
+            width:1152,
+	        height:752,
+            autoCenter:false
+        });
+    </script>
+    <footer>
+        <p>Posted By: Jerry Zhang</p>
+    </footer>
 </body>
 </html>
