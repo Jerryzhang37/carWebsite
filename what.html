@@ -12,18 +12,14 @@
     </style>
 </head>
 <body>
-    <div class = "menu">
-        <div class = "nav_menu">
-            <ul>
-                <li ><a href="index.html">Home</a></li>
-                <li><a href="choose.html">Choose Your Car</a></li>
-                <li><a href="what.html">What is in a Car</a></li>
-                <li><a href="history.html">History of Cars</a></li>
-                <li><a href="future.html">Future of Cars</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </div>
-    </div>
+    <nav class="tabs">
+        <div class="selector"></div>
+        <a href="index.html">Home</a>
+        <a href="what.html" class="active">What is in a Car</a>
+        <a href="history.html">History of Cars</a>
+        <a href="future.html">Future of Cars</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
     <div id="flipbook">
         <div class="hard"><img src="book_img/hard.jpg"></div>
         <div><img src="book_img/p1.jpg"></div>
@@ -52,6 +48,7 @@
             autoCenter:false
         });
     </script>
+    <script src="js/base.js"></script>
     <footer>
         <p>Posted By: Jerry Zhang</p>
     </footer>
