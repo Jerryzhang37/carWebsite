@@ -7,7 +7,7 @@ $(".selector").css({
     "width": activeWidth + "px"
 });
 
-tabs.on("click","a",function(e){
+tabs.on("click","a",function(){
     //e.preventDefault();
     $('.tabs a').removeClass("active");
     $(this).addClass('active');
@@ -18,4 +18,5 @@ tabs.on("click","a",function(e){
     "width": activeWidth + "px"
     });
 });
+
 

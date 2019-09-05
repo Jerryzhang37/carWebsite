@@ -1,24 +1,14 @@
-.background_picture_index {
+.background-picture {
     background-size: cover;
     width: 100%;
-    height: 1000px;
-    background: scroll;
-    background: url("https://www.wsupercars.com/wallpapers/Porsche/2011-Porsche-918-RSR-Concept-V3-1536.jpg");
+    height: 800px;
+    background: url("https://www.wsupercars.com/wallpapers/Porsche/2011-Porsche-918-RSR-Concept-V3-1536.jpg") no-repeat center;
+    position: relative;
+    top: 50px;
 }
 
 canvas{
     position: fixed;
 }
 
-
-
-#index_text_top {
-    float: left;
-    text-align: center;
-    font-size: 25px;
-    padding: 10% 125px ;
-    background-color: ghostwhite;
-    overflow: hidden;
-
-}
 
