@@ -1,0 +1,15 @@
+#history-content{
+    width: 80%;
+    margin: auto;
+
+    position: relative;
+    top: 50px;
+    z-index: auto;
+}
+
+p{
+    text-align: left;
+    font-size: 13.5pt;
+    color: #3C3C3C;
+    letter-spacing: .5pt;
+}

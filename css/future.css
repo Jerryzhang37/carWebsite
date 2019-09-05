@@ -3,5 +3,16 @@
     background-size: cover;
     width: 100%;
     height: 600px;
-    background-attachment: scroll;
+}
+
+#future-content{
+    width: 70%;
+    margin: 0 auto;
+}
+
+p{
+    text-align: left;
+    font-size: 13.5pt;
+    color: #3C3C3C;
+    letter-spacing: .5pt;
 }
