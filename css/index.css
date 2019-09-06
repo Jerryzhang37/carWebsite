@@ -1,10 +1,12 @@
 .background-picture {
     background-size: cover;
     width: 100%;
-    height: 800px;
+
+    height: 700px;
     background: url("https://www.wsupercars.com/wallpapers/Porsche/2011-Porsche-918-RSR-Concept-V3-1536.jpg") no-repeat center;
     position: relative;
     top: 50px;
+    overflow: hidden;
 }
 
 canvas{
